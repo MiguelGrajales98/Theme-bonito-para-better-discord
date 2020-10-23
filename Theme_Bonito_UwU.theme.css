@@ -1,0 +1,70 @@
+/**
+ * @name Theme Bonito UwU
+ * @author MiguelGrajales9801#4113
+ * @version 1.0
+ * @description Pon el tema oscuro pa que funcione XD
+ * @invite KzNmSyp
+ */
+
+@import url("https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/base.css");
+
+/* User Background */
+@import url('https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css');
+@import url('https://discord-custom-covers.github.io/usrbg/snippets/modals.css');
+
+/* BlackBox tags */
+@import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
+
+/* Old Windows titlebar - remove this @import if you wish to use default titlebar */
+@import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
+
+:root {
+    
+    /* Variables de la imagen de inicio */
+    --background-image: url('https://i.imgur.com/kYW2H5C.jpg'); /* Imagen de fondo | Por defecto: url('https://i.imgur.com/kYW2H5C.jpg') */
+    --background-image-blur: 5px; /* Difuminado de la imagen de fondo | Debe de terminar en px px | Por defecto: 5px */
+    --background-image-size: cover; /* Tamaño de la imagen de inicio | Por defecto: cover | Opciones: cover, contain */
+    --background-image-position: center; /* Posicion de la imagen de inicio | Por defecto: center | Opciones: top, right, bottom, left, center */
+
+    /* Popout & Modal variables */
+    --popout-modal-image: var(--background-image); /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+    --popout-modal-blur: 5px; /* Blur intensity of --popout-modal-image | Must end in px | DEFAULT: 5px */
+    --popout-modal-size: cover; /* Size of the popout/modal image | DEFAUT: cover | OPTIONS: cover, contain */
+    --popout-modal-position: center; /* Position of popout/modal image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
+    
+    /* Variables de la Imagen de inicio */
+     --home-button-image: url('https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg'); /* Imagen de Inicio | Imagen por defecto: url('https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg') */
+     --home-button-size: cover; /* Tamaño de la imagen de inicio | Por defecto: cover */
+     --home-button-position: center; /* Posicion de la imagen de inicio | Por defecto: center */
+
+  /* Variables del Brillo */
+  --serverlist-brightness: 0.8; /* Brillo para la lista de servers | 0 - 1 (Se aceptan decimales) | Por defecto: 0.8 */
+  --left-brightness: 0.8; /* Brillo para Canales y DM | 0 - 1 (Se aceptan decimales) | Por defecto: 0.8 */
+  --middle-brightness: 0.6; /* Brillo del chat | 0 - 1 (Se acptan decimales) | Pro defecto: 0.6 */
+  --right-brightness: 1; /* Miembros y brillo del que esta hablando | 0 - 1 (Se aceptan decimales) | Por defecto: 0 */
+  --popout-modal-brightness: 0.75; /* Brillo para popouts y modelos | 0 - 1 (decimals allowed) | Por defecto: 0.75 */
+
+  /* Variables del degradado */
+  --gradient-primary: 2,79,224; /* Por Defecto: 2,79,224 */
+  --gradient-secondary: 54,209,220; /* Por Defecto: 54,209,220 */
+  --gradient-direction: 320deg; /* Por Defecto: 320deg */
+
+  /* Variables de tinte */
+  --tint-colour: 255,51,159; /* Color de Tinta | Por Defecto: 255,51,159 */
+  --tint-brightness: 0; /* Brillo --tint-colour | 0 - 1 (Se aceptan Decimales) | DEFAULT: 0 */
+
+  /* Otras variables */
+  --window-padding: 10px; /* Espaceado alrededor de la ventana de discord | Por defecto: 0px */
+  --window-roundness: 10px; /* Redondez de Discord | Por Defecto: 10px */
+  --scrollbar-colour: rgba(255,255,255,0.05); /* Por Defecto: rgba(255,255,255,0.05) */
+  --link-colour: #00b0f4; /* Por defecto: #00b0f4 */
+  --show-gift-gif-buttons: none; /* Mostrar Botones: block | Ocultar Botones: none | Por Defecto: none */
+
+  /*
+ 
+  */
+  --font: 'Whitney';
+
+  /* No tocar */
+  --update-notice-1: none;
+}
