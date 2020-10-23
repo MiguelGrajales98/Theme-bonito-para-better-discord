@@ -46,8 +46,8 @@
 	--popout-modal-brightness: 0.75; /* Brillo para popouts y modelos | 0 - 1 (decimals allowed) | Por defecto: 0.75 */
 
 	/* Variables del degradado */
-	--gradient-primary: 2,79,224; /* Por Defecto: 2,79,224 */
-	--gradient-secondary: 54,209,220; /* Por Defecto: 54,209,220 */
+	--gradient-primary: 2,79,224; /* Color primario de todo | Por Defecto: 2,79,224 */
+	--gradient-secondary: 54,209,220; /* Color secundario de todo | Por Defecto: 54,209,220 */
 	--gradient-direction: 320deg; /* Por Defecto: 320deg */
 
 	/* Variables de tinte */
